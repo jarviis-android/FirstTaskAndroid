@@ -1,0 +1,469 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/primary_color"
+    tools:context=".MainActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="@dimen/_400sdp"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:padding="@dimen/_16sdp">
+
+
+        <ImageView
+            android:id="@+id/circle1"
+            android:layout_width="@dimen/_30sdp"
+            android:layout_height="@dimen/_30sdp"
+            android:src="@drawable/circular_border"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <ImageView
+            android:id="@+id/circle2"
+            android:layout_width="@dimen/_30sdp"
+            android:layout_height="@dimen/_30sdp"
+            android:layout_marginBottom="@dimen/_10sdp"
+            android:src="@drawable/circular_border"
+            app:layout_constraintBottom_toTopOf="@id/circle1"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <ImageView
+            android:id="@+id/circle3"
+            android:layout_width="@dimen/_30sdp"
+            android:layout_height="@dimen/_30sdp"
+            android:layout_marginBottom="@dimen/_10sdp"
+            android:src="@drawable/circular_border"
+            app:layout_constraintBottom_toTopOf="@id/circle2"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <ImageView
+            android:id="@+id/circle4"
+            android:layout_width="@dimen/_30sdp"
+            android:layout_height="@dimen/_30sdp"
+            android:layout_marginBottom="@dimen/_10sdp"
+            android:src="@drawable/circular_border"
+            app:layout_constraintBottom_toTopOf="@id/circle3"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <ImageView
+            android:id="@+id/circle5"
+            android:layout_width="@dimen/_30sdp"
+            android:layout_height="@dimen/_30sdp"
+            android:layout_marginBottom="@dimen/_10sdp"
+            android:src="@drawable/circular_border"
+            app:layout_constraintBottom_toTopOf="@id/circle4"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <ImageView
+            android:id="@+id/circle6"
+            android:layout_width="@dimen/_30sdp"
+            android:layout_height="@dimen/_30sdp"
+            android:layout_marginBottom="@dimen/_10sdp"
+            android:src="@drawable/circular_border"
+            app:layout_constraintBottom_toTopOf="@id/circle5"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <ImageView
+            android:id="@+id/circle7"
+            android:layout_width="@dimen/_30sdp"
+            android:layout_height="@dimen/_30sdp"
+            android:layout_marginBottom="@dimen/_10sdp"
+            android:src="@drawable/circular_border"
+            app:layout_constraintBottom_toTopOf="@id/circle6"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <ImageView
+            android:id="@+id/circle8"
+            android:layout_width="@dimen/_30sdp"
+            android:layout_height="@dimen/_30sdp"
+            android:layout_marginBottom="@dimen/_10sdp"
+            android:src="@drawable/circular_border"
+            app:layout_constraintBottom_toTopOf="@id/circle7"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <ImageView
+            android:id="@+id/circle9"
+            android:layout_width="@dimen/_30sdp"
+            android:layout_height="@dimen/_30sdp"
+            android:layout_marginBottom="@dimen/_10sdp"
+            android:src="@drawable/circular_border"
+            app:layout_constraintBottom_toTopOf="@id/circle8"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <ImageView
+            android:id="@+id/circle10"
+            android:layout_width="@dimen/_30sdp"
+            android:layout_height="@dimen/_30sdp"
+            android:layout_marginBottom="@dimen/_10sdp"
+            android:src="@drawable/circular_border"
+            app:layout_constraintBottom_toTopOf="@id/circle9"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <ImageView
+            android:id="@+id/circle11"
+            android:layout_width="@dimen/_30sdp"
+            android:layout_height="@dimen/_30sdp"
+            android:layout_marginBottom="@dimen/_10sdp"
+            android:layout_marginStart="@dimen/_10sdp"
+            android:src="@drawable/circular_border"
+            app:layout_constraintBottom_toTopOf="@id/circle10"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <ImageView
+            android:id="@+id/circle12"
+            android:layout_width="@dimen/_30sdp"
+            android:layout_height="@dimen/_30sdp"
+            android:src="@drawable/circular_border"
+            app:layout_constraintBottom_toTopOf="@id/circle11"
+            app:layout_constraintStart_toEndOf="@id/circle11" />
+
+        <ImageView
+            android:id="@+id/circle13"
+            android:layout_width="@dimen/_30sdp"
+            android:layout_height="@dimen/_30sdp"
+            android:layout_marginBottom="@dimen/_5sdp"
+            android:layout_marginStart="@dimen/_10sdp"
+            android:src="@drawable/circular_border"
+            app:layout_constraintTop_toTopOf="@id/circle12"
+            app:layout_constraintStart_toEndOf="@id/circle12" />
+
+        <ImageView
+            android:id="@+id/circle14"
+            android:layout_width="@dimen/_30sdp"
+            android:layout_height="@dimen/_30sdp"
+            android:layout_marginBottom="@dimen/_5sdp"
+            android:layout_marginStart="@dimen/_10sdp"
+            android:src="@drawable/circular_border"
+            app:layout_constraintTop_toTopOf="@id/circle12"
+            app:layout_constraintStart_toEndOf="@id/circle13" />
+
+        <ImageView
+            android:id="@+id/circle15"
+            android:layout_width="@dimen/_30sdp"
+            android:layout_height="@dimen/_30sdp"
+            android:layout_marginBottom="@dimen/_5sdp"
+            android:layout_marginStart="@dimen/_10sdp"
+            android:src="@drawable/circular_border"
+            app:layout_constraintTop_toTopOf="@id/circle12"
+            app:layout_constraintStart_toEndOf="@id/circle14" />
+
+        <ImageView
+            android:id="@+id/circle16"
+            android:layout_width="@dimen/_30sdp"
+            android:layout_height="@dimen/_30sdp"
+            android:layout_marginBottom="@dimen/_5sdp"
+            android:layout_marginStart="@dimen/_10sdp"
+            android:src="@drawable/circular_border"
+            app:layout_constraintTop_toTopOf="@id/circle12"
+            app:layout_constraintStart_toEndOf="@id/circle15" />
+
+        <ImageView
+            android:id="@+id/circle17"
+            android:layout_width="@dimen/_30sdp"
+            android:layout_height="@dimen/_30sdp"
+            android:layout_marginEnd="@dimen/_20sdp"
+            android:src="@drawable/circular_border"
+            app:layout_constraintTop_toTopOf="@id/circle11"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        <ImageView
+            android:id="@+id/circle18"
+            android:layout_width="@dimen/_30sdp"
+            android:layout_height="@dimen/_30sdp"
+            android:src="@drawable/circular_border"
+            app:layout_constraintTop_toTopOf="@id/circle10"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        <ImageView
+            android:id="@+id/circle19"
+            android:layout_width="@dimen/_30sdp"
+            android:layout_height="@dimen/_30sdp"
+            android:src="@drawable/circular_border"
+            app:layout_constraintTop_toTopOf="@id/circle9"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        <ImageView
+            android:id="@+id/circle20"
+            android:layout_width="@dimen/_30sdp"
+            android:layout_height="@dimen/_30sdp"
+            android:src="@drawable/circular_border"
+            app:layout_constraintTop_toTopOf="@id/circle8"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        <ImageView
+            android:id="@+id/circle21"
+            android:layout_width="@dimen/_30sdp"
+            android:layout_height="@dimen/_30sdp"
+            android:src="@drawable/circular_border"
+            app:layout_constraintTop_toTopOf="@id/circle7"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        <ImageView
+            android:id="@+id/circle22"
+            android:layout_width="@dimen/_30sdp"
+            android:layout_height="@dimen/_30sdp"
+            android:src="@drawable/circular_border"
+            app:layout_constraintTop_toTopOf="@id/circle6"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        <ImageView
+            android:id="@+id/circle23"
+            android:layout_width="@dimen/_30sdp"
+            android:layout_height="@dimen/_30sdp"
+            android:src="@drawable/circular_border"
+            app:layout_constraintTop_toTopOf="@id/circle5"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        <ImageView
+            android:id="@+id/circle24"
+            android:layout_width="@dimen/_30sdp"
+            android:layout_height="@dimen/_30sdp"
+            android:src="@drawable/circular_border"
+            app:layout_constraintTop_toTopOf="@id/circle4"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        <ImageView
+            android:id="@+id/circle25"
+            android:layout_width="@dimen/_30sdp"
+            android:layout_height="@dimen/_30sdp"
+            android:src="@drawable/circular_border"
+            app:layout_constraintTop_toTopOf="@id/circle3"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        <ImageView
+            android:id="@+id/circle26"
+            android:layout_width="@dimen/_30sdp"
+            android:layout_height="@dimen/_30sdp"
+            android:src="@drawable/circular_border"
+            app:layout_constraintTop_toTopOf="@id/circle2"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        <ImageView
+            android:id="@+id/circle27"
+            android:layout_width="@dimen/_30sdp"
+            android:layout_height="@dimen/_30sdp"
+            android:src="@drawable/circular_border"
+            app:layout_constraintTop_toTopOf="@id/circle1"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        <!--
+        &lt;!&ndash; Row 1 (Top center) &ndash;&gt;
+        <ImageView
+            android:id="@+id/circle1"
+            android:layout_width="@dimen/_30sdp"
+            android:layout_height="@dimen/_30sdp"
+            android:src="@drawable/circular_border"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        &lt;!&ndash; Row 2 &ndash;&gt;
+        <ImageView
+            android:id="@+id/circle2"
+            android:layout_width="@dimen/_30sdp"
+            android:layout_height="@dimen/_30sdp"
+            android:src="@drawable/circular_border"
+            app:layout_constraintTop_toBottomOf="@id/circle1"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <ImageView
+            android:id="@+id/circle3"
+            android:layout_width="@dimen/_30sdp"
+            android:layout_height="@dimen/_30sdp"
+            android:src="@drawable/circular_border"
+            app:layout_constraintTop_toBottomOf="@id/circle1"
+            app:layout_constraintStart_toEndOf="@id/circle2" />
+
+        <ImageView
+            android:id="@+id/circle4"
+            android:layout_width="@dimen/_30sdp"
+            android:layout_height="@dimen/_30sdp"
+            android:src="@drawable/circular_border"
+            app:layout_constraintTop_toBottomOf="@id/circle1"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        &lt;!&ndash; Row 3 &ndash;&gt;
+        <ImageView
+            android:id="@+id/circle5"
+            android:layout_width="@dimen/_30sdp"
+            android:layout_height="@dimen/_30sdp"
+            android:src="@drawable/circular_border"
+            app:layout_constraintTop_toBottomOf="@id/circle2"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <ImageView
+            android:id="@+id/circle6"
+            android:layout_width="@dimen/_30sdp"
+            android:layout_height="@dimen/_30sdp"
+            android:src="@drawable/circular_border"
+            app:layout_constraintTop_toBottomOf="@id/circle2"
+            app:layout_constraintStart_toEndOf="@id/circle5" />
+
+        <ImageView
+            android:id="@+id/circle7"
+            android:layout_width="@dimen/_30sdp"
+            android:layout_height="@dimen/_30sdp"
+            android:src="@drawable/circular_border"
+            app:layout_constraintTop_toBottomOf="@id/circle3"
+            app:layout_constraintStart_toEndOf="@id/circle6" />
+
+        <ImageView
+            android:id="@+id/circle8"
+            android:layout_width="@dimen/_30sdp"
+            android:layout_height="@dimen/_30sdp"
+            android:src="@drawable/circular_border"
+            app:layout_constraintTop_toBottomOf="@id/circle3"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        &lt;!&ndash; Row 4 &ndash;&gt;
+        <ImageView
+            android:id="@+id/circle9"
+            android:layout_width="@dimen/_30sdp"
+            android:layout_height="@dimen/_30sdp"
+            android:src="@drawable/circular_border"
+            app:layout_constraintTop_toBottomOf="@id/circle5"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <ImageView
+            android:id="@+id/circle10"
+            android:layout_width="@dimen/_30sdp"
+            android:layout_height="@dimen/_30sdp"
+            android:src="@drawable/circular_border"
+            app:layout_constraintTop_toBottomOf="@id/circle5"
+            app:layout_constraintStart_toEndOf="@id/circle9" />
+
+        <ImageView
+            android:id="@+id/circle11"
+            android:layout_width="@dimen/_30sdp"
+            android:layout_height="@dimen/_30sdp"
+            android:src="@drawable/circular_border"
+            app:layout_constraintTop_toBottomOf="@id/circle6"
+            app:layout_constraintStart_toEndOf="@id/circle10" />
+
+        <ImageView
+            android:id="@+id/circle12"
+            android:layout_width="@dimen/_30sdp"
+            android:layout_height="@dimen/_30sdp"
+            android:src="@drawable/circular_border"
+            app:layout_constraintTop_toBottomOf="@id/circle6"
+            app:layout_constraintStart_toEndOf="@id/circle11" />
+
+        <ImageView
+            android:id="@+id/circle13"
+            android:layout_width="@dimen/_30sdp"
+            android:layout_height="@dimen/_30sdp"
+            android:src="@drawable/circular_border"
+            app:layout_constraintTop_toBottomOf="@id/circle7"
+            app:layout_constraintStart_toEndOf="@id/circle12" />
+
+        <ImageView
+            android:id="@+id/circle14"
+            android:layout_width="@dimen/_30sdp"
+            android:layout_height="@dimen/_30sdp"
+            android:src="@drawable/circular_border"
+            app:layout_constraintTop_toBottomOf="@id/circle7"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        &lt;!&ndash; Row 5 &ndash;&gt;
+        <ImageView
+            android:id="@+id/circle15"
+            android:layout_width="@dimen/_30sdp"
+            android:layout_height="@dimen/_30sdp"
+            android:src="@drawable/circular_border"
+            app:layout_constraintTop_toBottomOf="@id/circle9"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <ImageView
+            android:id="@+id/circle16"
+            android:layout_width="@dimen/_30sdp"
+            android:layout_height="@dimen/_30sdp"
+            android:src="@drawable/circular_border"
+            app:layout_constraintTop_toBottomOf="@id/circle9"
+            app:layout_constraintStart_toEndOf="@id/circle15" />
+
+        <ImageView
+            android:id="@+id/circle17"
+            android:layout_width="@dimen/_30sdp"
+            android:layout_height="@dimen/_30sdp"
+            android:src="@drawable/circular_border"
+            app:layout_constraintTop_toBottomOf="@id/circle10"
+            app:layout_constraintStart_toEndOf="@id/circle16" />
+
+        <ImageView
+            android:id="@+id/circle18"
+            android:layout_width="@dimen/_30sdp"
+            android:layout_height="@dimen/_30sdp"
+            android:src="@drawable/circular_border"
+            app:layout_constraintTop_toBottomOf="@id/circle10"
+            app:layout_constraintStart_toEndOf="@id/circle17" />
+
+        <ImageView
+            android:id="@+id/circle19"
+            android:layout_width="@dimen/_30sdp"
+            android:layout_height="@dimen/_30sdp"
+            android:src="@drawable/circular_border"
+            app:layout_constraintTop_toBottomOf="@id/circle11"
+            app:layout_constraintStart_toEndOf="@id/circle18" />
+
+        <ImageView
+            android:id="@+id/circle20"
+            android:layout_width="@dimen/_30sdp"
+            android:layout_height="@dimen/_30sdp"
+            android:src="@drawable/circular_border"
+            app:layout_constraintTop_toBottomOf="@id/circle11"
+            app:layout_constraintStart_toEndOf="@id/circle19" />
+
+        <ImageView
+            android:id="@+id/circle21"
+            android:layout_width="@dimen/_30sdp"
+            android:layout_height="@dimen/_30sdp"
+            android:src="@drawable/circular_border"
+            app:layout_constraintTop_toBottomOf="@id/circle12"
+            app:layout_constraintStart_toEndOf="@id/circle20" />
+
+        <ImageView
+            android:id="@+id/circle22"
+            android:layout_width="@dimen/_30sdp"
+            android:layout_height="@dimen/_30sdp"
+            android:src="@drawable/circular_border"
+            app:layout_constraintTop_toBottomOf="@id/circle12"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        &lt;!&ndash; Row 6 (Last Row) &ndash;&gt;
+        <ImageView
+            android:id="@+id/circle23"
+            android:layout_width="@dimen/_30sdp"
+            android:layout_height="@dimen/_30sdp"
+            android:src="@drawable/circular_border"
+            app:layout_constraintTop_toBottomOf="@id/circle15"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <ImageView
+            android:id="@+id/circle24"
+            android:layout_width="@dimen/_30sdp"
+            android:layout_height="@dimen/_30sdp"
+            android:src="@drawable/circular_border"
+            app:layout_constraintTop_toBottomOf="@id/circle15"
+            app:layout_constraintStart_toEndOf="@id/circle23" />
+
+        <ImageView
+            android:id="@+id/circle25"
+            android:layout_width="@dimen/_30sdp"
+            android:layout_height="@dimen/_30sdp"
+            android:src="@drawable/circular_border"
+            app:layout_constraintTop_toBottomOf="@id/circle16"
+            app:layout_constraintStart_toEndOf="@id/circle24" />
+
+        <ImageView
+            android:id="@+id/circle26"
+            android:layout_width="@dimen/_30sdp"
+            android:layout_height="@dimen/_30sdp"
+            android:src="@drawable/circular_border"
+            app:layout_constraintTop_toBottomOf="@id/circle16"
+            app:layout_constraintStart_toEndOf="@id/circle24"/>-->
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</RelativeLayout>
